@@ -699,11 +699,7 @@ rgba(46, 47, 66, 0.7)),
   }
 }
 
-.portfolio-container {
-  max-width: 1128px;
-  padding: 0px;
-  gap: 48px;
-}
+
 .portfolio-title {
   font-family: inherit;
   font-size: 36px;
