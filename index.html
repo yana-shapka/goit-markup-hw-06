@@ -411,10 +411,14 @@
               <div class="portfolio-wrapper">
                 <img
                   class="portfolio-ill"
-                  srcset="./images/portfolio-banking_1x.jpg, ./images/portfolio-banking_2x.jpg 2x"
-                  src="./images/portfolio-banking_2x.jpg"
-                  width="360"
-                  height="300"
+                  src="./images/portfolio-banking_mob_1x.jpg" 
+                  srcset="
+                  ./images/portfolio-banking_mob_1x.jpg 320w,
+                  ./images/portfolio-banking_mob_2x.jpg 320w 2x,
+                  ./images/portfolio-banking_1x.jpg 768w,
+                  ./images/portfolio-banking_2x.jpg 768w 2x"
+                  sizes="(max-width: 768px) 288px, 
+                  (min-width: 768px) 360px" 
                   alt="Screen of banking application"
                 />
                 <p class="overlay">
@@ -474,7 +478,7 @@
               <div class="portfolio-wrapper">
                 <img
                   class="portfolio-ill"
-                  srcset="./images/portfolio_taxi_1x.jpg, ./images/portfolio-taxi_2x.jpg 2x"
+                  srcset="./images/portfolio-taxi_1x.jpg, ./images/portfolio-taxi_2x.jpg 2x"
                   src="./images/portfolio-taxi_2x.jpg"
                   width="360"
                   height="300"
